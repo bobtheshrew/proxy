@@ -16,9 +16,9 @@ function FindProxyForURL(url, host)
  ];
  
  // add predefined functions to pac
- this._sandBox.importFunction(myIpAddress);
- this._sandBox.importFunction(dnsResolve);
- this._sandBox.importFunction(proxyAlert, "alert");
+// this._sandBox.importFunction(myIpAddress);
+// this._sandBox.importFunction(dnsResolve);
+ //this._sandBox.importFunction(proxyAlert, "alert");
  
  let whitelist_length = whitelist.length;
  
@@ -26,7 +26,7 @@ function FindProxyForURL(url, host)
   if (host.includes(whitelist[i])){
     return 'DIRECT';
   }
-  alert(host + "blocked!");
+  //alert(host + "blocked!");
  }
   
  /* Don't proxy local hostnames */
