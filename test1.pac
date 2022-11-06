@@ -5,7 +5,11 @@ function FindProxyForURL(url, host)
  url = url.toLowerCase();
  host = host.toLowerCase();
  
- if (host.includes("github"))
+ if (
+  host.includes("github")||
+  host.includes("google")||  
+  host.includes("bleepingcomputer")
+    )
  {
   return 'DIRECT';
  }
