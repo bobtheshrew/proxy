@@ -5,13 +5,7 @@ function FindProxyForURL(url, host)
  url = url.toLowerCase();
  host = host.toLowerCase();
  
-  /* Don't proxy local hostnames */
- if (
-    host.includes("github")
-    )
- {
-  return 'DIRECT';
- }
+
  
  /* Don't proxy local hostnames */
  if (isPlainHostName(host))
