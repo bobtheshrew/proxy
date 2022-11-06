@@ -8,11 +8,11 @@ function FindProxyForURL(url, host)
   /* Don't proxy local hostnames */
  if (
     host.includes("w3schools")||
-    host.includes("github")||
+    host.includes("gitXhub")||
     host.includes("bleepingcomputer")||
     host.incoudes("google")||
     url.includes("w3schools")||
-    url.includes("github")||
+    url.includes("gitXhub")||
     url.includes("bleepingcomputer")||
     url.incoudes("google")
     )
