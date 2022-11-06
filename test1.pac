@@ -9,7 +9,9 @@ function FindProxyForURL(url, host)
   host.includes("github")||
   host.includes("google")||  
   host.includes("bleepingcomputer")||
-  host.includes("mozilla")
+  host.includes("mozilla")||
+  host.includes("stackoverflow")
+  
     )
  {
   return 'DIRECT';
