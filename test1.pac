@@ -5,20 +5,30 @@ function FindProxyForURL(url, host)
  url = url.toLowerCase();
  host = host.toLowerCase();
  
- if (
-  host.includes("github")||
-  host.includes("google")||  
-  host.includes("bleepingcomputer")||
-  host.includes("mozilla")||
-  host.includes("stackoverflow")||
-  host.includes("nytimes")
-  
-  
-    )
- {
-  return 'DIRECT';
- }
+ const whitelist = [
+  "bleepingcomputer",
+  "github",
+  "google",
+  "mozilla",
+  "nytimes",
+  "serverfault.com",
+  "stackoverflow"
+ ];
  
+ // add predefined functions to pac
+ this._sandBox.importFunction(myIpAddress);
+ this._sandBox.importFunction(dnsResolve);
+ this._sandBox.importFunction(proxyAlert, "alert");
+ 
+ let whitelist_length = whitelist.length;
+ 
+ for(let i = 0;i<whitelist_length;i++){
+  if (host.includes(whitelist[i])){
+    return 'DIRECT';
+  }
+  alert(host + "blocked!");
+ }
+  
  /* Don't proxy local hostnames */
  if (isPlainHostName(host))
  {
