@@ -8,10 +8,10 @@ function FindProxyForURL(url, host)
   /* Don't proxy local hostnames */
  if (
     
-    host.includes("w3schools.com")||
-    host.includes("github.com")||
-    host.includes("bleepingcomputer.com")||
-    host.incoudes("google.com")
+    host.includes("w3schools")||
+    host.includes("github")||
+    host.includes("bleepingcomputer")||
+    host.incoudes("google")
     )
  {
   return 'DIRECT';
