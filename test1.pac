@@ -67,7 +67,7 @@ function FindProxyForURL(url, host)
  url.substring(0, 6) == 'https:' ||
  url.substring(0, 4) == 'ftp:')
  {
-  return 'PROXY wcg1.example.com:8080';
+  return 'PROXY www.google.com:80';
  }
  
  return 'DIRECT';
