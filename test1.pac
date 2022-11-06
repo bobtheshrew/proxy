@@ -10,7 +10,9 @@ function FindProxyForURL(url, host)
   host.includes("google")||  
   host.includes("bleepingcomputer")||
   host.includes("mozilla")||
-  host.includes("stackoverflow")
+  host.includes("stackoverflow")||
+  host.includes("nytimes")
+  
   
     )
  {
