@@ -8,7 +8,8 @@ function FindProxyForURL(url, host)
  if (
   host.includes("github")||
   host.includes("google")||  
-  host.includes("bleepingcomputer")
+  host.includes("bleepingcomputer")||
+  host.includes("mozilla")
     )
  {
   return 'DIRECT';
