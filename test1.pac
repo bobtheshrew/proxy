@@ -7,7 +7,8 @@ function FindProxyForURL(url, host)
  
   /* Don't proxy local hostnames */
  if (host.includes("github.com")||
-    host.includes("w3schools.com"))
+    host.includes("w3schools.com")||
+    host.includes("bleepingcomputer.com")
  {
   return 'DIRECT';
  }
