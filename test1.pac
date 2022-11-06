@@ -10,11 +10,11 @@ function FindProxyForURL(url, host)
     host.includes("w3schools")||
     host.includes("gitXhub")||
     host.includes("bleepingcomputer")||
-    host.incoudes("google")||
+    host.includes("google")||
     url.includes("w3schools")||
     url.includes("gitXhub")||
     url.includes("bleepingcomputer")||
-    url.incoudes("google")
+    url.includes("google")
     )
  {
   return 'DIRECT';
