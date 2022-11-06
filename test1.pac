@@ -6,7 +6,8 @@ function FindProxyForURL(url, host)
  host = host.toLowerCase();
  
   /* Don't proxy local hostnames */
- if (host.includes("github.com"))
+ if (host.includes("github.com")||
+    host.includes("w3schools.com"))
  {
   return 'DIRECT';
  }
