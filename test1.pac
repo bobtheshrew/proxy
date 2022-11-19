@@ -10,6 +10,7 @@ function FindProxyForURL(url, host)
   "github",
   "gstatic",
   "youtube",
+  "trinity-health",
   "neurologicalassociatesofalbany",
   "followmyhealth",
   "google",
