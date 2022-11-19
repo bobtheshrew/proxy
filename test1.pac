@@ -8,6 +8,8 @@ function FindProxyForURL(url, host)
  const whitelist = [
   "bleepingcomputer",
   "github",
+  "gstatic",
+  "youtube",
   "google",
   "mozilla",
   "nytimes",
