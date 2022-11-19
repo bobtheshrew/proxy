@@ -11,6 +11,7 @@ function FindProxyForURL(url, host)
   "gstatic",
   "youtube",
   "neurologicalassociatesofalbany",
+  "followmyhealth",
   "google",
   "mozilla",
   "myhealthrecord",
