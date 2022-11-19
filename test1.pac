@@ -13,6 +13,7 @@ function FindProxyForURL(url, host)
   "google",
   "mozilla",
   "nytimes",
+  "fbcdn.net",
   "serverfault.com",
   "stackoverflow",
   "t-mobile.com",
