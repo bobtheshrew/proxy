@@ -12,6 +12,7 @@ function FindProxyForURL(url, host)
   "youtube",
   "google",
   "mozilla",
+  "myhealthrecord",
   "nytimes",
   "fbcdn.net",
   "serverfault.com",
