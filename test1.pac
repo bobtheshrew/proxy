@@ -161,7 +161,7 @@ function FindProxyForURL(url, host)
  let whitelist_length = whitelist.length;
  
  for(let i = 0;i<whitelist_length;i++){
-  if (host.includes(whitelist[i])){
+  if (host.includes(whitelist[i].toLowerCase())){
     return 'DIRECT';
   }
   //alert(host + "blocked!");
