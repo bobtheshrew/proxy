@@ -133,6 +133,7 @@ function FindProxyForURL(url, host)
 "timesunion.com",
 "trinity-health.com",
 "tripadvisor.com",
+"tacdn.com",
 "uhls.org",
 "usatoday.com",
 "usatoday.idmanagedsolutions.com",
