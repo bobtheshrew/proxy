@@ -35,7 +35,7 @@ function FindProxyForURL(url, host)
 "citi.com",
 "citizensbankonline.com",
 "coats-of-arms.com",
-"colonielibtary.org",
+"colonielibrary.org",
 "crossroadsinitiative.com",
 "csealocal1000.org",
 "davidrumsey.com",
