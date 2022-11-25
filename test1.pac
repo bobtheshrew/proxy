@@ -66,6 +66,7 @@ function FindProxyForURL(url, host)
 "ggpht.com",
 "github.com",
 "Githubassets.com",
+"Githubusercontent.com",
 "go.com",
 "google.com",
 "google.com",
