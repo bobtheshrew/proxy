@@ -70,7 +70,7 @@ function FindProxyForURL(url, host)
 "go.com",
 "google.com",
 "googleusercontent.com",
-"googleapi.com",
+"googleapis.com",
 "gstatic.com",
 "gutenberg.org",
 "hist-stmarys.org",
