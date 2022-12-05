@@ -25,6 +25,7 @@ function FindProxyForURL(url, host)
 "bleepingcomputer.com",
 "blogspot.com",
 "boardgamegeek.com",
+"btol.com",
 "c.comenity.net",
 "capitalone.com",
 "caremark.com",
