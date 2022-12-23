@@ -120,6 +120,7 @@ function FindProxyForURL(url, host)
 "rebelpuritan.com",
 "resources.hewitt.com",
 "router.asus.com",
+"rs6.net",
 "scribd.com",
 "sefcu.com",
 "serverfault.com",
