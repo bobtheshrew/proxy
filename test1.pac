@@ -129,6 +129,7 @@ function FindProxyForURL(url, host)
 "siena.edu",
 "sjsachurch.org",
 "stackoverflow.com",
+"Stpiusxloudonville.org",
 "swimmingholes.org",
 "t-mobile.com",
 "target.com",
