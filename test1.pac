@@ -115,7 +115,7 @@ function FindProxyForURL(url, host)
 "oldmaid.blog.co.uk",
 "papalaudience.org",
 "photobucket.com",
-"Purplepub.com",
+"purple-pub.com",
 "proboards.com",
 "propfaith.net",
 "rebelpuritan.com",
