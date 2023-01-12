@@ -131,6 +131,8 @@ function FindProxyForURL(url, host)
 "sjsachurch.org",
 "stackoverflow.com",
 "Stpiusxloudonville.org",
+"squarespace.com",
+"squarespace-cdn.com",
 "swimmingholes.org",
 "t-mobile.com",
 "target.com",
