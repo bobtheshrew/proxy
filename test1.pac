@@ -161,8 +161,8 @@ function FindProxyForURL(url, host)
 "yahoo.com",
 "youtube.com",
 "ytimg.com",
-".gov"
-                   
+".gov",
+".edu"                   
  ];
  
  // add predefined functions to pac
